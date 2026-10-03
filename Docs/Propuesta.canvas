@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"f93a3c3d0bf3afa3","type":"group","x":-480,"y":-120,"width":400,"height":900,"label":"Adiestradores"},
+		{"id":"8eb78ed3d26ad66a","type":"group","x":180,"y":-120,"width":400,"height":900,"label":"Refugios"},
+		{"id":"33b3588c12209dfc","type":"group","x":840,"y":-120,"width":400,"height":900,"label":"EsePerroApp"},
+		{"id":"55e412b7ae8cb9c0","type":"text","text":"","x":-360,"y":-80,"width":50,"height":50},
+		{"id":"d510569304f71c5a","type":"text","text":"","x":-360,"y":80,"width":50,"height":50},
+		{"id":"de8c57e957c0a20a","type":"text","text":"","x":-360,"y":240,"width":50,"height":50},
+		{"id":"7e884ccb433a83ab","type":"text","text":"","x":-335,"y":480,"width":50,"height":50,"color":"2"},
+		{"id":"2e442e3fd49742f6","type":"text","text":"","x":-335,"y":560,"width":50,"height":50,"color":"2"},
+		{"id":"845bc121a67a07a1","type":"text","text":"Perfil Adiestrador\n- Nombre\n- Ubicación\n- Telefono\n- Redes sociales\n- Especialidad (opcional)\n- Voluntariado\n\t- Si\n\t- Viáticos\n\t- Tarifa reducida\n- Tipo de trabajo\n\t- Presencial\n\t- Remoto\n\t- Ambos\n- Certificaciones y títulos\n- Disponible para dar clases grupales","x":-460,"y":1040,"width":250,"height":680},
+		{"id":"75a5090ed21bf303","type":"text","text":"Perfil del perro\n- Nombre\n- Edad \n- Sexo\n- Castrado\n- Vacunas\n\t- Rabia\n\t- Sexutple\n\t- Bordetella\n- Foto\n- Ubicación real\n- Ubicacion\n\t- Refugio\n\t- Transito\n-  Condiciones de salud base\n- Observaciones de comportamiento\n- Vinculo con perros\n- Vinculo con personas\n- Observaciones adicionales\n- Condiciones de rescate\n- Tiempo en rescate\n\n\n----\n- Diagnosticos","x":-180,"y":1040,"width":250,"height":800},
+		{"id":"21ed67a5c8e1c0c7","type":"text","text":"Perfil Refugio/Rescatista\n- Nombre\n- Ubicación\n- Teléfono\n- Redes sociales\n- Capacidad operativa (rango)\n- Tipo de instalación\n- Tipo\n\t- Rescatista\n\t- Refugio","x":100,"y":1040,"width":250,"height":680},
+		{"id":"7d11d7a82b253deb","type":"text","text":"Diagnóstico\n- Fecha\n- Adiestrador\n- Perro\n- Vigencia\n- Observaciones de salud base\n- Observaciones de comportamiento\n- Vinculo con perros\n- Vinculo con personas\n- Observaciones adicionales\n- Recomendaciones\n- Derivaciones recomendadas\n\t- Veterinario\n\t- Etólogo","x":380,"y":1040,"width":250,"height":680},
+		{"id":"b47a4ec46130d10b","type":"text","text":"","x":1025,"y":-80,"width":50,"height":50},
+		{"id":"cac5365cc8751256","type":"text","text":"","x":1025,"y":0,"width":50,"height":50},
+		{"id":"8113226cc0363033","type":"text","text":"","x":1025,"y":80,"width":50,"height":50},
+		{"id":"418cf26886ed6fb2","type":"text","text":"","x":320,"y":0,"width":50,"height":50},
+		{"id":"988a628458dedea9","type":"text","text":"","x":1025,"y":160,"width":50,"height":50},
+		{"id":"88f039d614b20629","type":"text","text":"","x":320,"y":160,"width":50,"height":50},
+		{"id":"07eaead92726a3f3","type":"text","text":"","x":320,"y":-80,"width":50,"height":50},
+		{"id":"20991265aa96d8a8","type":"text","text":"","x":320,"y":400,"width":50,"height":50,"color":"2"},
+		{"id":"9181f418747e64ce","type":"text","text":"","x":1025,"y":560,"width":50,"height":50,"color":"2"},
+		{"id":"8013e213ba4afe4d","type":"text","text":"","x":1025,"y":240,"width":50,"height":50},
+		{"id":"8c9c7e3305e3f8e3","type":"text","text":"","x":1025,"y":480,"width":50,"height":50,"color":"2"},
+		{"id":"f857b94f5de4b0cc","type":"text","text":"","x":1025,"y":400,"width":50,"height":50,"color":"2"},
+		{"id":"7c844a397723ff6c","x":-460,"y":1800,"width":250,"height":400,"type":"text","text":"Publicacion\n- Perro\n- Fecha\n- Estado\n\t- Borrador\n\t- En convocatoria\n\t- Validacion del refugio\n\t- Asignado a adiestrador\n\t- Diagnosticado\n\t- Cerrado\n- Adiestradores"}
+	],
+	"edges":[
+		{"id":"93bd2077f324e0a7","fromNode":"55e412b7ae8cb9c0","fromSide":"right","toNode":"07eaead92726a3f3","toSide":"left","label":"Se registra su perfil"},
+		{"id":"641745708c656483","fromNode":"418cf26886ed6fb2","fromSide":"right","toNode":"cac5365cc8751256","toSide":"left","label":"Abre convocatoria para diagnosticar a un perro"},
+		{"id":"5287e4af8657e98b","fromNode":"d510569304f71c5a","fromSide":"right","toNode":"8113226cc0363033","toSide":"left","label":"Se propone al diagnostico"},
+		{"id":"d9b3196ca25fea25","fromNode":"88f039d614b20629","fromSide":"right","toNode":"988a628458dedea9","toSide":"left","label":"Refugio selecciona de los que se propusieron"},
+		{"id":"cb5ce2f8fa280729","fromNode":"de8c57e957c0a20a","fromSide":"right","toNode":"8013e213ba4afe4d","toSide":"left","label":"Crea el informe del diagnostico"},
+		{"id":"dd7ba8dac67d5fd4","fromNode":"20991265aa96d8a8","fromSide":"right","toNode":"f857b94f5de4b0cc","toSide":"left","label":"Busque a un adiestrador en base a su perfil"},
+		{"id":"510e859b3b190d25","fromNode":"8c9c7e3305e3f8e3","fromSide":"left","toNode":"7e884ccb433a83ab","toSide":"right","label":"Notificar a los adiestradores"},
+		{"id":"2c64c50154c8063e","fromNode":"2e442e3fd49742f6","fromSide":"right","toNode":"9181f418747e64ce","toSide":"left","label":"Acepta o rechaza la solicitud"},
+		{"id":"82738d19cda85821","fromNode":"07eaead92726a3f3","fromSide":"right","toNode":"b47a4ec46130d10b","toSide":"left","label":"Se registra su perfil"}
+	]
+}

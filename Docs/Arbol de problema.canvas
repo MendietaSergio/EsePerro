@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"5768f9e72c59ac62","x":-125,"y":168,"width":250,"height":60,"type":"text","text":"Diagnostico muy básico"},
+		{"id":"d8431f0f610e5669","x":160,"y":168,"width":250,"height":60,"type":"text","text":"Urgencia de la reubicación"},
+		{"id":"ff32152f8bd8f806","x":-420,"y":168,"width":250,"height":60,"type":"text","text":"Perros sin diagnostico de comportamiento"},
+		{"id":"184697c6901a38fe","x":-460,"y":-267,"width":250,"height":90,"type":"text","text":"Devolución/abandono del perro"},
+		{"id":"ba44085ab8723075","x":140,"y":-297,"width":250,"height":60,"type":"text","text":"Perros que nunca son adoptados"},
+		{"id":"2567eabb9f4fd6e7","x":-170,"y":-323,"width":250,"height":86,"type":"text","text":"Profundización del problema con el comportamiento del perro"},
+		{"id":"ef95d718f3366eef","x":-140,"y":-60,"width":250,"height":60,"color":"2","type":"text","text":"Adopciones fallidas por desconocimiento del perro"}
+	],
+	"edges":[
+		{"id":"86ac6ce52bc392b2","fromNode":"ef95d718f3366eef","fromSide":"bottom","toNode":"ff32152f8bd8f806","toSide":"top"},
+		{"id":"54e76aeb22e37dec","fromNode":"ef95d718f3366eef","fromSide":"bottom","toNode":"5768f9e72c59ac62","toSide":"top"},
+		{"id":"3fa2ccbab89659f0","fromNode":"ef95d718f3366eef","fromSide":"bottom","toNode":"d8431f0f610e5669","toSide":"top"},
+		{"id":"2670e9b89454c562","fromNode":"ef95d718f3366eef","fromSide":"top","toNode":"184697c6901a38fe","toSide":"bottom"},
+		{"id":"fc6986a861d6f46d","fromNode":"ef95d718f3366eef","fromSide":"top","toNode":"2567eabb9f4fd6e7","toSide":"bottom"},
+		{"id":"53feda0408ab23ba","fromNode":"ef95d718f3366eef","fromSide":"top","toNode":"ba44085ab8723075","toSide":"bottom"}
+	]
+}

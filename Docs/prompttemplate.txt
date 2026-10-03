@@ -1,0 +1,10 @@
+Estamos desarrollando un prototipo de nuestra solución, 
+•⁠  ⁠Desarrolla una aplicación de [desafío] para [usuario].
+•⁠  ⁠El objetivo es [objetivo].
+•⁠  ⁠La app debe cumplir con las siguientes funcionalidades: [enlistar las funcionalidades principales].”
+MUY IMPORTANTE: Este es un prototipo visual, NO una app real. 
+•⁠  ⁠Usá solo HTML, CSS y JavaScript vanilla. Sin backend, sin base de datos, sin autenticación. 
+•⁠  ⁠Los datos pueden ser hardcodeados o simulados. 
+•⁠  ⁠Priorizá que se vea bien y sea clickeable. 
+•⁠  ⁠Todas las pantallas deben estar en un solo archivo o con navegación simple entre archivos. 
+•⁠  ⁠No instales librerías pesadas. Podés usar Tailwind CDN o similares si hace falta.

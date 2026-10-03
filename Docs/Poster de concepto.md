@@ -1,0 +1,6 @@
+- Nombre de la iniciativa:  Ese Perro
+- Que problema resuelve: Adopciones fallidas
+- Para quienes y que oportunidad aprovecha: Para los refugios aprovechando adiestradores voluntarios para un diagnostico previo a la adopcion del perro
+- Porque alguien lo usaría: Porque es necesario tener esa informacion sobre perro para una adopción exitosa.
+- Porque es factible hacerlo: Porque hay adiestradores dispuestos voluntariamente  a ofrecer su servicio para diagnosticar a perros de refugios y la tecnología que gestione todo el proceso.
+- Porque es sostenible en el tiempo: Porque la necesidad es constante y los casos se van renovando.

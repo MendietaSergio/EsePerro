@@ -1,0 +1,8 @@
+- Como administrador de un refugio, quiero ingresar un perro para que un adiestrados realice el diagnóstico
+- Como adiestrador, quiero ver los perros disponibles para hacer su diagnóstico
+- Como adiestrador, quiero cargar el informe para que el refugio lo tenga disponible.
+- Como refugio, quiero descargar el informe del adiestrador para compartirlo con el futuro tutor
+- Como refugio, quiero consultar el estado de los diagnósticos de los perros ingresados para control y seguimiento
+- Como refugio quiero registrarme en la aplicacion para cargar solicitudes de diagnósticos
+- Como adiestrador quiero registrarme en la aplicación para ofrecer mis servicios profesionales
+- Como refugio quiero buscar adiestradores especializados para casos puntuales

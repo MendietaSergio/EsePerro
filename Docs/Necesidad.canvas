@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"13183e4a4fb1df5b","type":"text","text":"Refugio","x":120,"y":-240,"width":250,"height":50},
+		{"id":"582b1e8f68df0801","type":"text","text":"Adiestradores","x":-480,"y":-250,"width":250,"height":60},
+		{"id":"16e80660ba9dca0a","type":"text","text":"Perro","x":-180,"y":-80,"width":250,"height":60},
+		{"id":"360142ae1392fe0d","type":"text","text":"Tutor","x":-180,"y":100,"width":250,"height":50}
+	],
+	"edges":[
+		{"id":"4d9c80d1e57a63a0","fromNode":"582b1e8f68df0801","fromSide":"bottom","toNode":"16e80660ba9dca0a","toSide":"left","label":"Diagnostico"},
+		{"id":"2e57fddf77ecc8fa","fromNode":"13183e4a4fb1df5b","fromSide":"left","toNode":"582b1e8f68df0801","toSide":"right","label":"Solicita diagnostico"},
+		{"id":"3f374d559472a589","fromNode":"360142ae1392fe0d","fromSide":"top","toNode":"16e80660ba9dca0a","toSide":"bottom","label":"Quiere adoptar"},
+		{"id":"09ad550a8285f717","fromNode":"13183e4a4fb1df5b","fromSide":"bottom","toNode":"16e80660ba9dca0a","toSide":"right","label":"Tiene el perfil"},
+		{"id":"0af75aa230d86859","fromNode":"582b1e8f68df0801","fromSide":"bottom","toNode":"360142ae1392fe0d","toSide":"left","label":"Seguimiento"}
+	]
+}

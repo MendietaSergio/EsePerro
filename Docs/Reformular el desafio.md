@@ -1,0 +1,1 @@
+¿Cómo podríamos apalancarnos en la tecnología para los refugios puedan diagnosticar conductas considerando falta de recursos financieros, de tiempo, de profesionales voluntarios y en consecuencia la devolución del perro?
